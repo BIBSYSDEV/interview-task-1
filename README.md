@@ -1,6 +1,6 @@
 # Vårrengjøring
 
-Vi skal gjøre en liten vårrengjøring og bygge opp forsidekomponente våre på nytt. Vi har en liste med registreringer, sortering og et filter i toppen som skal lages ut i fra angitt design.
+Vi skal gjøre en liten vårrengjøring og bygge opp forsidekomponentene våre på nytt. Vi har en liste med registreringer, sortering og et filter i toppen som skal lages ut i fra angitt design.
 
 ![img.png](src/assets/landing-page.png)
 
