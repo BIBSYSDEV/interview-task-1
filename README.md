@@ -18,7 +18,7 @@ Registreringsliste:
         - Sorteres alfabetisk
     - Sammendrag
 - Komponenten(e) skal ha egnede tester (for inspirasjon, se tester for Header)
-- Universell utforming skal være ivaretatt (aria-label, tastaturnavigering)
+- Universell utforming skal være ivaretatt
 
 Filter:
 - Ledetekst
