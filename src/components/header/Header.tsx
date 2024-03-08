@@ -1,8 +1,12 @@
+import {useState} from "react";
+
 export const Header = () => {
+  const [isDisabled, setIsDisabled] = useState(false);
+
   return(
       <div className="header">
         <div className="header-title-container">
-          <h1>
+          <h1 data-testid="h1-title">
             NVA
           </h1>
           <p>
@@ -10,7 +14,7 @@ export const Header = () => {
           </p>
         </div>
         <div className="header-button-container">
-          <button>
+          <button data-testid="header-button" disabled={isDisabled} onClick={() => (setIsDisabled(!isDisabled))}>
             Logg inn
           </button>
         </div>

@@ -16,7 +16,7 @@ Registreringsliste:
     - Bidragsytere
         - Sorteres alfabetisk
     - Sammendrag
-- Komponenten(e) skal ha egnede tester (for inspirasjon, se tester for Header og Footer)
+- Komponenten(e) skal ha egnede tester (for inspirasjon, se tester for Header)
 - Universell utforming skal være ivaretatt (aria-label, tastaturnavigering)
 
 Sortering:
@@ -37,4 +37,4 @@ Knapper:
 ## Scripts
 ```npm start```
 
-```npm test``` (NB: The application must run simultaneously)
+```npm test```
