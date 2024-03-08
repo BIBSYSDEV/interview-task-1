@@ -37,4 +37,4 @@ Knapper:
 ## Scripts
 ```npm start```
 
-```npm test```
+```npm test``` (NB: The application must run simultaneously)
