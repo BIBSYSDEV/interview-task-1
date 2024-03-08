@@ -16,6 +16,7 @@ export interface Registration {
   additionalIdentifiers?: AdditionalIdentifier[];
   subjects: string[];
   entityDescription: EntityDescription;
+  type: string;
 }
 
 interface ResourceOwner {

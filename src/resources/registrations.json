@@ -11,168 +11,152 @@
       },
       "status": "DRAFT",
       "publisher": { "id": "mockCustomerInstitution.id", "name": "NTNU" },
-      "subjects": [],
+      "subjects": ["Computer Science", "Anthropology"],
       "entityDescription": {
-        "mainTitle": "Computer simulations show that Neanderthal facial morphology represents adaptation to cold and high energy demands, but not heavy biting",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ante vitae convallis interdum, ipsum enim tempor dolor, sit amet condimentum lorem neque non sem. Nulla volutpat turpis elit. Nam fringilla sed nisi quis blandit. Nulla porttitor egestas massa, a fringilla nunc. Fusce at ornare urna. Sed luctus odio et velit dignissim, vel suscipit eros maximus. Nullam volutpat velit vel ante vestibulum, vitae accumsan lacus faucibus.\n\nNulla ultrices porta elit non scelerisque. In hac habitasse platea dictumst. Maecenas cursus lacinia magna non ultrices. Proin id porttitor mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae tempus nunc. Maecenas eu leo gravida, dictum velit sit amet, faucibus tortor. Nam ut lacus pretium, aliquam risus sed, faucibus enim ",
-        "description": "Morbi sed neque egestas, egestas lacus ac, tincidunt metus. Donec quis ipsum vulputate, tempus nisi vulputate, commodo orci. Suspendisse blandit condimentum ex quis egestas. Ut rhoncus eros non condimentum mattis. Ut lectus nisi, molestie sit amet hendrerit ut, mollis vel odio. In a risus tellus. Morbi rutrum augue metus, ut malesuada ex posuere vitae. Nam nec rhoncus turpis.",
-        "tags": ["Ost", "Loff", "Majones"],
+        "mainTitle": "Title 1",
+        "abstract": "Abstract 1",
+        "description": "Description 1",
         "language": "http://lexvo.org/id/iso639-3/eng",
+        "tags": ["tag1", "tag2"],
         "contributors": [
           {
             "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000001",
-              "name": "Ola Nordmann"
-            }
+            "identity": { "id": "901790000001", "name": "Ola Nordmann" }
           },
           {
             "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000002",
-              "name": "Kari Nordmann"
-            }
-          },
-          {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000003",
-              "name": "Egil Engelskmann"
-            }
+            "identity": { "id": "901790000002", "name": "Kari Nordmann" }
           }
         ]
-      }
+      },
+      "type": "Article"
     },
     {
-      "id": "https://api.dev.nva.aws.unit.no/registration/12345678",
-      "identifier": "12345678",
-      "createdDate": "04/01/2024",
-      "modifiedDate": "05/01/2024",
+      "id": "https://api.dev.nva.aws.unit.no/registration/12345680",
+      "identifier": "12345680",
+      "createdDate": "03/01/2024",
+      "modifiedDate": "04/01/2024",
       "resourceOwner": {
-        "owner": { "id": "901790000002", "name": "Kari Nordmann" },
-        "ownerAffiliation": "https://api.dev.nva.aws.unit.no/cristin/organization/20754.0.0.0"
+        "owner": { "id": "12346", "name": "Kari Nordmann" },
+        "ownerAffiliation": "https://api.dev.nva.aws.unit.no/cristin/organization/20755.0.0.0"
       },
       "status": "PUBLISHED",
-
-      "publisher": { "id": "mockCustomerInstitution.id", "name": "UiO" },
-      "subjects": [],
+      "publisher": { "id": "mockCustomerInstitution.id2", "name": "UiO" },
+      "subjects": ["Physics", "Mathematics"],
       "entityDescription": {
-        "mainTitle": "Computer simulations show that Neanderthal facial morphology represents adaptation to cold and high energy demands, but not heavy biting",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ante vitae convallis interdum, ipsum enim tempor dolor, sit amet condimentum lorem neque non sem. Nulla volutpat turpis elit. Nam fringilla sed nisi quis blandit. Nulla porttitor egestas massa, a fringilla nunc. Fusce at ornare urna. Sed luctus odio et velit dignissim, vel suscipit eros maximus. Nullam volutpat velit vel ante vestibulum, vitae accumsan lacus faucibus.\n\nNulla ultrices porta elit non scelerisque. In hac habitasse platea dictumst. Maecenas cursus lacinia magna non ultrices. Proin id porttitor mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae tempus nunc. Maecenas eu leo gravida, dictum velit sit amet, faucibus tortor. Nam ut lacus pretium, aliquam risus sed, faucibus enim ",
-        "description": "Morbi sed neque egestas, egestas lacus ac, tincidunt metus. Donec quis ipsum vulputate, tempus nisi vulputate, commodo orci. Suspendisse blandit condimentum ex quis egestas. Ut rhoncus eros non condimentum mattis. Ut lectus nisi, molestie sit amet hendrerit ut, mollis vel odio. In a risus tellus. Morbi rutrum augue metus, ut malesuada ex posuere vitae. Nam nec rhoncus turpis.",
-        "tags": ["Ost", "Loff", "Majones"],
-        "language": "http://lexvo.org/id/iso639-3/eng",
+        "mainTitle": "Title 2",
+        "abstract": "Abstract 2",
+        "description": "Description 2",
+        "language": "http://lexvo.org/id/iso639-3/nor",
+        "tags": ["tag3", "tag4"],
         "contributors": [
           {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000001",
-              "name": "Ola Nordmann"
-            }
+            "affiliations": ["UiO"],
+            "identity": { "id": "901790000003", "name": "Erik Erikson" }
           },
           {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000002",
-              "name": "Kari Nordmann"
-            }
-          },
-          {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000003",
-              "name": "Egil Engelskmann"
-            }
+            "affiliations": ["UiO"],
+            "identity": { "id": "901790000004", "name": "Anna Anneson" }
           }
         ]
-      }
+      },
+      "type": "Book"
     },
     {
-      "id": "https://api.dev.nva.aws.unit.no/registration/12345679",
-      "identifier": "12345679",
-      "createdDate": "01/01/2024",
-      "modifiedDate": "02/01/2024",
+      "id": "https://api.dev.nva.aws.unit.no/registration/12345681",
+      "identifier": "12345681",
+      "createdDate": "05/01/2024",
+      "modifiedDate": "06/01/2024",
       "resourceOwner": {
-        "owner": { "id": "12345", "name": "Ola Nordmann" },
-        "ownerAffiliation": "https://api.dev.nva.aws.unit.no/cristin/organization/20754.0.0.0"
+        "owner": { "id": "12347", "name": "Jonas Jonassen" },
+        "ownerAffiliation": "https://api.dev.nva.aws.unit.no/cristin/organization/20756.0.0.0"
+      },
+      "status": "IN_REVIEW",
+      "publisher": { "id": "mockCustomerInstitution.id3", "name": "BI" },
+      "subjects": ["Business", "Economics"],
+      "entityDescription": {
+        "mainTitle": "Title 3",
+        "abstract": "Abstract 3",
+        "description": "Description 3",
+        "language": "http://lexvo.org/id/iso639-3/eng",
+        "tags": ["tag5", "tag6"],
+        "contributors": [
+          {
+            "affiliations": ["BI"],
+            "identity": { "id": "901790000005", "name": "Jonas Jonassen" }
+          },
+          {
+            "affiliations": ["BI"],
+            "identity": { "id": "901790000006", "name": "Johannes Johansen" }
+          }
+        ]
+      },
+      "type": "Report"
+    },
+    {
+      "id": "https://api.dev.nva.aws.unit.no/registration/12345682",
+      "identifier": "12345682",
+      "createdDate": "07/01/2024",
+      "modifiedDate": "08/01/2024",
+      "resourceOwner": {
+        "owner": { "id": "12348", "name": "Anna Annesen" },
+        "ownerAffiliation": "https://api.dev.nva.aws.unit.no/cristin/organization/20757.0.0.0"
+      },
+      "status": "PUBLISHED",
+      "publisher": { "id": "mockCustomerInstitution.id4", "name": "UiB" },
+      "subjects": ["Chemistry", "Biology"],
+      "entityDescription": {
+        "mainTitle": "Title 4",
+        "abstract": "Abstract 4",
+        "description": "Description 4",
+        "language": "http://lexvo.org/id/iso639-3/nor",
+        "tags": ["tag7", "tag8"],
+        "contributors": [
+          {
+            "affiliations": ["UiB"],
+            "identity": { "id": "901790000007", "name": "Astrid Astridsen" }
+          },
+          {
+            "affiliations": ["UiB"],
+            "identity": { "id": "901790000008", "name": "Andreas Andreassen" }
+          }
+        ]
+      },
+      "type": "Thesis"
+    },
+    {
+      "id": "https://api.dev.nva.aws.unit.no/registration/12345683",
+      "identifier": "12345683",
+      "createdDate": "09/01/2024",
+      "modifiedDate": "10/01/2024",
+      "resourceOwner": {
+        "owner": { "id": "12349", "name": "Egil Egilsen" },
+        "ownerAffiliation": "https://api.dev.nva.aws.unit.no/cristin/organization/20758.0.0.0"
       },
       "status": "DRAFT",
-      "publisher": { "id": "mockCustomerInstitution.id", "name": "NTNU" },
-      "subjects": [],
+      "publisher": { "id": "mockCustomerInstitution.id5", "name": "UiS" },
+      "subjects": ["Engineering", "Technology"],
       "entityDescription": {
-        "mainTitle": "Computer simulations show that Neanderthal facial morphology represents adaptation to cold and high energy demands, but not heavy biting",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ante vitae convallis interdum, ipsum enim tempor dolor, sit amet condimentum lorem neque non sem. Nulla volutpat turpis elit. Nam fringilla sed nisi quis blandit. Nulla porttitor egestas massa, a fringilla nunc. Fusce at ornare urna. Sed luctus odio et velit dignissim, vel suscipit eros maximus. Nullam volutpat velit vel ante vestibulum, vitae accumsan lacus faucibus.\n\nNulla ultrices porta elit non scelerisque. In hac habitasse platea dictumst. Maecenas cursus lacinia magna non ultrices. Proin id porttitor mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae tempus nunc. Maecenas eu leo gravida, dictum velit sit amet, faucibus tortor. Nam ut lacus pretium, aliquam risus sed, faucibus enim ",
-        "description": "Morbi sed neque egestas, egestas lacus ac, tincidunt metus. Donec quis ipsum vulputate, tempus nisi vulputate, commodo orci. Suspendisse blandit condimentum ex quis egestas. Ut rhoncus eros non condimentum mattis. Ut lectus nisi, molestie sit amet hendrerit ut, mollis vel odio. In a risus tellus. Morbi rutrum augue metus, ut malesuada ex posuere vitae. Nam nec rhoncus turpis.",
-        "tags": ["Ost", "Loff", "Majones"],
+        "mainTitle": "Title 5",
+        "abstract": "Abstract 5",
+        "description": "Description 5",
         "language": "http://lexvo.org/id/iso639-3/eng",
+        "tags": ["tag9", "tag10"],
         "contributors": [
           {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000001",
-              "name": "Ola Nordmann"
-            }
+            "affiliations": ["UiS"],
+            "identity": { "id": "901790000009", "name": "Egil Egilsen" }
           },
           {
-            "affiliations": ["NTNU"],
+            "affiliations": ["UiS"],
             "identity": {
-              "id": "901790000002",
-              "name": "Kari Nordmann"
-            }
-          },
-          {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000003",
-              "name": "Egil Engelskmann"
+              "id": "901790000010",
+              "name": "Elisabeth Elisabethsen"
             }
           }
         ]
-      }
-    },
-    {
-      "id": "https://api.dev.nva.aws.unit.no/registration/12345678",
-      "identifier": "12345678",
-      "createdDate": "04/01/2024",
-      "modifiedDate": "05/01/2024",
-      "resourceOwner": {
-        "owner": { "id": "901790000002", "name": "Kari Nordmann" },
-        "ownerAffiliation": "https://api.dev.nva.aws.unit.no/cristin/organization/20754.0.0.0"
       },
-      "status": "PUBLISHED",
-
-      "publisher": { "id": "mockCustomerInstitution.id", "name": "UiO" },
-      "subjects": [],
-      "entityDescription": {
-        "mainTitle": "Computer simulations show that Neanderthal facial morphology represents adaptation to cold and high energy demands, but not heavy biting",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ante vitae convallis interdum, ipsum enim tempor dolor, sit amet condimentum lorem neque non sem. Nulla volutpat turpis elit. Nam fringilla sed nisi quis blandit. Nulla porttitor egestas massa, a fringilla nunc. Fusce at ornare urna. Sed luctus odio et velit dignissim, vel suscipit eros maximus. Nullam volutpat velit vel ante vestibulum, vitae accumsan lacus faucibus.\n\nNulla ultrices porta elit non scelerisque. In hac habitasse platea dictumst. Maecenas cursus lacinia magna non ultrices. Proin id porttitor mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae tempus nunc. Maecenas eu leo gravida, dictum velit sit amet, faucibus tortor. Nam ut lacus pretium, aliquam risus sed, faucibus enim ",
-        "description": "Morbi sed neque egestas, egestas lacus ac, tincidunt metus. Donec quis ipsum vulputate, tempus nisi vulputate, commodo orci. Suspendisse blandit condimentum ex quis egestas. Ut rhoncus eros non condimentum mattis. Ut lectus nisi, molestie sit amet hendrerit ut, mollis vel odio. In a risus tellus. Morbi rutrum augue metus, ut malesuada ex posuere vitae. Nam nec rhoncus turpis.",
-        "tags": ["Ost", "Loff", "Majones"],
-        "language": "http://lexvo.org/id/iso639-3/eng",
-        "contributors": [
-          {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000001",
-              "name": "Ola Nordmann"
-            }
-          },
-          {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000002",
-              "name": "Kari Nordmann"
-            }
-          },
-          {
-            "affiliations": ["NTNU"],
-            "identity": {
-              "id": "901790000003",
-              "name": "Egil Engelskmann"
-            }
-          }
-        ]
-      }
+      "type": "Article"
     }
   ]
 }
