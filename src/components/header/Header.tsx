@@ -1,15 +1,15 @@
 export const Header = () => {
   return(
-      <div>
-        <div>
-          <div>
+      <div className="header">
+        <div className="header-title-container">
+          <h1>
             NVA
-          </div>
-          <div>
+          </h1>
+          <p>
             NASJONALT VITENARKIV
-          </div>
+          </p>
         </div>
-        <div>
+        <div className="header-button-container">
           <button>
             Logg inn
           </button>

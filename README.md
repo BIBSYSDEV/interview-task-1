@@ -16,7 +16,6 @@ Registreringsliste:
     - Bidragsytere
         - Sorteres alfabetisk
     - Sammendrag
-        - Ekspandere/minimere?
 - Komponenten(e) skal ha egnede tester (for inspirasjon, se tester for Header og Footer)
 - Universell utforming skal være ivaretatt (aria-label, tastaturnavigering)
 
