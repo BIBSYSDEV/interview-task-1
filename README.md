@@ -4,7 +4,8 @@ Vi skal gjøre en liten vårrengjøring og bygge opp forsidekomponentene våre p
 
 ![img.png](src/assets/landing-page.png)
 
-Vi har satt opp skjelettet, en util-fil og tilbyr et api for registreringer.
+Vi har satt opp skjelettet for applikasjonen, og tilbyr et api for registreringer.
+
 Kravene til komponentene er som følger:
 
 Registreringsliste:
@@ -18,11 +19,6 @@ Registreringsliste:
     - Sammendrag
 - Komponenten(e) skal ha egnede tester (for inspirasjon, se tester for Header)
 - Universell utforming skal være ivaretatt (aria-label, tastaturnavigering)
-
-Sortering:
-- Skal kunne sortere på registreringsdato ascending og descending
-- Universell utforming
-- Egnede tester
 
 Filter:
 - Ledetekst
