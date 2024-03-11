@@ -10,7 +10,7 @@ describe('<Header />', () => {
     cy.get('[data-testid=h1-title]').filter(':contains("NVA")').should('be.visible');
   })
 
-  it('should have title', () => {
+  it('should disable login button onclick', () => {
     cy.mount(<Header />);
     cy.get('[data-testid=header-button]').click();
     cy.get('[data-testid=header-button]').should('be.disabled');
